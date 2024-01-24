@@ -1,0 +1,39 @@
+{
+  "name": "nuxt3-admin-layer",
+  "type": "module",
+  "version": "0.0.1",
+  "main": "./nuxt.config.ts",
+  "scripts": {
+    "dev": "nuxi dev .playground",
+    "build": "nuxt build .playground",
+    "generate": "nuxt generate .playground",
+    "preview": "nuxt preview .playground",
+    "lint": "eslint .",
+    "postinstall": "nuxt prepare .playground",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^18.4.4",
+    "@commitlint/config-conventional": "^18.4.4",
+    "@nuxt/devtools": "^1.0.8",
+    "@nuxt/eslint-config": "^0.1.1",
+    "@nuxtjs/i18n": "^8.0.0",
+    "@skmd87/nuxt-events": "^1.0.6",
+    "@stylistic/eslint-plugin-ts": "^1.5.4",
+    "@types/dot-object": "^2.1.6",
+    "@typescript-eslint/eslint-plugin": "^6.19.0",
+    "@typescript-eslint/parser": "^6.19.0",
+    "@vueuse/core": "^10.7.2",
+    "defu": "^6.1.4",
+    "eslint": "^8.56.0",
+    "husky": "^8.0.0",
+    "klona": "^2.0.6",
+    "nuxt": "^3.6.2",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "@nuxtjs/eslint-config-typescript": "^12.1.0",
+    "dot-object": "^2.1.4",
+    "vuetify": "^3.5.1"
+  }
+}
